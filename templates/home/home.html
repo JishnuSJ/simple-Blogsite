@@ -1,0 +1,151 @@
+{% extends "home/base.html" %}
+{% block title %}home {% endblock %}
+{% block name %}Home {% endblock %}
+{% block homeactive %} active {% endblock %}
+{% block body %}
+{% load static %}
+<div class="container">
+<div class="card bg-info text-dark">
+    <div class="card-body">
+      <h5 class="card-title ">CODE BLOGS</h5>
+      <p class="card-text">Read Our Blogs.</p>
+
+      {% comment %} <a href="#" class="btn btn-primary">Go somewhere</a> {% endcomment %}
+    </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Welcome to My Blog Site</h5>
+    <p class="card-text">Are you passionate about writing and sharing your thoughts with the world? Do you love discovering new perspectives and insights from others? Look no further! Our blog site, built with the power and flexibility of Python, is designed to offer you a seamless and engaging blogging experience.</p>
+    <h5 class="card-title">Add Blogs</h5>
+    <p class="card-text">Our intuitive blog editor makes it easy to create and format your posts. Whether you're writing a short update or a detailed article, our editor provides the tools you need to express yourself clearly and creatively.</p>
+    {% comment %} <a href="#" class="btn btn-primary">Go somewhere</a> {% endcomment %}
+  </div>
+</div>
+
+ {% comment %}loading icon running{% endcomment %}
+<div class="spinner-border text-primary" role="status">
+<span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="news d-flex gap-5 justify justify-content-center">
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'images/veg.jpg' %}" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">cost of veggies</h5>
+        <p class="card-text">The cost of veggies is more than 80 percent higher compared to November 2021 prices. Climate change has played a prominent role in the shortages, according to scientists.</p>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'images/th.jpg' %}" class="card-img-top" alt="">
+      <div class="card-body">Thrissur Pooram</h5>
+        <p class="card-text">The Thrissur Pooram is an annual Hindu temple festival held in Thrissur, Kerala, India. It is held at the Vadakkunnathan Temple in Thrissur every year on the P</p>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'images/d.jpg' %}" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">AI Models,</h5>
+        <p class="card-text">Unlimited Downloads, 16 AI Models, 7 AI Image Editors, and AI Writer, All in One Plan! Imagine it, Generate it. Fuel Your Design Process with the Power of AI. Try for Free now!</p>
+
+      </div>
+</div>
+</div>
+ {% comment %}loading icon running end{% endcomment %}
+
+
+</div>
+  
+{% endblock %}

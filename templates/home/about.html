@@ -1,0 +1,48 @@
+{% extends "home/base.html" %}
+{% block title %}About{% endblock %}
+{% block name %}about page
+{% load static %}
+
+{% comment %} {% extends "home/base.html" %}
+{% block title %}About Us{% endblock %}
+{% block name %}About Us{% endblock %}
+{% block body %} {% endcomment %}
+<div class="container my-5">
+    <h1 class="text-center mb-4">About Us</h1>
+    <p class="lead text-center">We are dedicated to providing the best services to our customers. Our team works tirelessly to ensure your satisfaction.</p>
+    
+    <h2 class="mt-5">Our Mission</h2>
+    <p class="text-muted">To deliver high-quality products and services that meet the needs of our customers while continuously improving our processes.</p>
+    
+    <h2 class="mt-5">Our Team</h2>
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{% static 'images/jishnu.jpg' %}" class="card-img-top" alt="Team Member 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Jishnu s.jyothish</h5>
+                    <p class="card-text">CEO & Founder</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        
+    </div>
+
+    <h2 class="mt-5">Our Values</h2>
+    <ul class="list-group">
+        <li class="list-group-item">Integrity</li>
+        <li class="list-group-item">Customer Focus</li>
+        <li class="list-group-item">Innovation</li>
+        <li class="list-group-item">Excellence</li>
+    </ul>
+
+    <h2 class="mt-5">Get in Touch</h2>
+    <p>If you would like to learn more about us, feel free to <a href="{% url 'contact' %}">contact us</a>.</p>
+</div>
+
+
+{% endblock %}
+{% block aboutactive %} active {% endblock %}
